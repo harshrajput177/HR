@@ -643,8 +643,8 @@ function App() {
     return () => observer.disconnect();
   }, []);
 
-  const location = useLocation();
-  const isServicePage = location.pathname.startsWith('/services');
+  // const location = useLocation();
+  // const isServicePage = location.pathname.startsWith('./pages/Services/Services.tsx');
 
   return (
     <>
