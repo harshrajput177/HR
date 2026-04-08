@@ -3,7 +3,6 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   Search,
-  User,
   Briefcase,
   TrendingUp,
   Award,
@@ -28,7 +27,7 @@ import {
   ClipboardList
 } from "lucide-react";
 
-import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 
 import ServicePage from './pages/Services/Services';
 import './index.css';
